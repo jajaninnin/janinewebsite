@@ -39,3 +39,13 @@ const food = document.getElementById('food');
           },
           false,
         );
+
+const photo = document.getElementById('photo');
+        photo.addEventListener( "mouseover", (event) => {
+              event.target.style.color = "#CC1455";
+              setTimeout(() => {
+                event.target.style.color = "";
+              }, 500);
+            },
+            false,
+          );

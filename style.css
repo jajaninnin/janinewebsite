@@ -1,5 +1,5 @@
 body {
-    background: #DFFEDC;
+    background: #F4FDED;
 }
 h1 {
     font-family: "Ultra", serif;
@@ -21,6 +21,7 @@ h1 {
     background: #FFFFFF; 
     padding: 10px;
     text-align: center;
+    font-style: bold;
   }
   p {
     color: #174814;
